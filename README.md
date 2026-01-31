@@ -1,4 +1,4 @@
-# NEON-L1
+# NEON L-1
 NEON L-1 is an educational 8-bit processor designed for students and hardware enthusiasts who want to understand how a CPU works at the lowest level.
 
 The processor is equipped with more than 200 LEDs that visualize its internal signals, buses, and flip-flops in real time. This allows users to literally see how data moves inside the processor during instruction execution.
@@ -17,7 +17,7 @@ Minimum clock frequency: Unlimited
 
 
 
-# NEON-L1
+# NEON L-1
 NEON L-1 — это образовательный 8-разрядный процессор, разработанный для студентов и энтузиастов, которые хотят понять, как работает ЦП на аппаратном уровне.
 
 Процессор оснащен более чем 200 светодиодами, которые визуализируют его внутренние сигналы, шины и триггеры в режиме реального времени. Это позволяет пользователям буквально видеть, как данные перемещаются внутри процессора во время выполнения инструкций.
