@@ -1,0 +1,6 @@
+СК:
+  J1:
+    1-16: EEPROM_addr >
+    17: EEPROM_CS >
+    18: GND <>
+    19-26: EEPROM_dat <
