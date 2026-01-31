@@ -1,5 +1,5 @@
 # NEON L-1
-[Прочитайте этот документ на Русском](README_RU.md)
+[Read this document in Russian (Русская версия)](README_RU.md)
 
 NEON L-1 is an educational 8-bit processor designed for students and hardware enthusiasts who want to understand how a CPU works at the lowest level.
 
@@ -34,11 +34,11 @@ The processor is divided into the following hardware modules:
 
 ## Project status
 The NEON L-1 processor is currently under active development.
-The project is divided into six hardware modules and multiple development stages.
+The project is divided into six hardware modules and several development stages.
 
-1. Logisim CPU design — 2 / 6 modules completed  
-2. DipTrace schematics — 0 / 6 modules completed  
-3. DipTrace PCB layout — 0 / 6 modules completed  
+1. Logisim CPU design — 2 / 6 modules completed
+2. DipTrace schematics — 0 / 6 modules completed
+3. DipTrace PCB layout — 0 / 6 modules completed
 4. PCB manufacturing — 0 / 6 modules completed
 
 ## Target audience
