@@ -1,0 +1,28 @@
+Copyright (c) 2026 NEON Project
+All rights reserved.
+
+This project, including all documentation, images, videos, specifications,
+instruction sets, and design descriptions, is proprietary.
+
+Permission is granted to download and use the materials from this repository
+for personal, educational, or internal evaluation purposes only.
+
+The following actions are strictly prohibited without explicit written
+permission from the copyright holder:
+
+1. Modification, adaptation, or creation of derivative works.
+2. Redistribution, publication, or sharing of any part of this repository,
+   in original or modified form.
+3. Reverse engineering, reconstruction, or reimplementation of the processor
+   architecture, logic, schematics, or hardware design, including attempts
+   based on photographs, videos, documentation, or observed behavior.
+4. Creation of compatible, interoperable, or derivative hardware or software,
+   including but not limited to emulators, development boards, peripherals,
+   adapters, interfaces, or communication bridges.
+5. Commercial use, manufacturing, or distribution of products based on this
+   project.
+
+All hardware implementations, extensions, and external devices related to
+this processor are exclusively reserved to the authors.
+
+This repository is provided for viewing and reference purposes only.
