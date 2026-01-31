@@ -1,34 +1,95 @@
 Copyright (c) 2026 TENOL Project
 All rights reserved.
 
-This project, including all documentation, images, videos, specifications,
-instruction sets, protocols, interfaces, and design descriptions, is
-proprietary and confidential.
+This license governs the use of the NEON L-1 project, including all
+documentation, images, videos, specifications, architectural descriptions,
+and related materials provided in this repository.
 
-Permission is granted solely to download and view the materials from this
-repository for personal, educational, or internal evaluation purposes.
-Such permission does not grant any right to implement, reproduce, or
-replicate the described system, in whole or in part.
+────────────────────────────────────────────────────────────
+PERMITTED USES
+────────────────────────────────────────────────────────────
 
-No license is granted except as explicitly stated in this document.
+1. Documentation, images, and videos
+You are permitted to:
+- Download, view, study, and use the original documentation, images, and
+  videos for personal, educational, and non-commercial purposes.
+- Redistribute the original, unmodified documentation, images, and videos,
+  provided that clear and visible attribution to the NEON L-1 project and
+  this repository is included.
+
+2. Educational study
+You are permitted to:
+- Study, analyze, and discuss the principles of operation of the NEON L-1
+  architecture for educational and learning purposes.
+- Use the NEON L-1 processor as-is in personal, educational, or research
+  projects, provided that no commercial activity is involved.
+
+3. Personal hardware use
+You are permitted to:
+- Design, build, or modify auxiliary hardware for personal, non-commercial
+  use with the NEON L-1 processor.
+
+────────────────────────────────────────────────────────────
+RESTRICTIONS
+────────────────────────────────────────────────────────────
 
 The following actions are strictly prohibited without explicit written
 permission from the copyright holder:
 
-1. Modification, adaptation, translation, or creation of derivative works.
-2. Redistribution, publication, sublicensing, or sharing of any part of
-   this repository, in original or modified form.
-3. Reverse engineering, reconstruction, analysis, or reimplementation of
-   the processor architecture, logic, schematics, protocols, or hardware
-   design, including attempts based on photographs, videos, documentation,
-   or observed behavior.
-4. Creation of compatible, interoperable, emulated, or derivative hardware
-   or software, including but not limited to emulators, development boards,
-   peripherals, adapters, interfaces, drivers, or communication bridges.
-5. Commercial use, manufacturing, sale, or distribution of products based
-   on or derived from this project.
+1. Modification and misrepresentation
+- Modification, adaptation, translation, or creation of derivative works
+  based on the documentation, images, or videos.
+- Redistribution of modified documentation, images, or videos.
+- Distribution of any materials from this project while claiming authorship
+  or presenting them as your own work.
 
-All hardware implementations, extensions, external devices, and interfaces
-related to this processor are exclusively reserved to the authors.
+2. Architecture reproduction and cloning
+- Recreating, copying, cloning, or reimplementing the NEON L-1 architecture,
+  in whole or in part, in hardware or software.
+- Developing processors, systems, or architectures that are substantially
+  similar to NEON L-1.
+- Copying architectural concepts with the intent to create a competing or
+  derivative processor.
 
-This repository is provided for viewing and reference purposes only.
+3. Compatible and commercial devices
+- Developing, manufacturing, or selling compatible or interoperable hardware
+  or software products intended for commercial use.
+- Manufacturing or selling derivative boards, peripherals, or systems based
+  on NEON L-1.
+
+4. Commercial use
+- Any commercial use of this project or materials, including resale,
+  distribution for profit, or use within commercial products or services.
+
+────────────────────────────────────────────────────────────
+OWNERSHIP
+────────────────────────────────────────────────────────────
+
+All documentation, images, videos, architectural descriptions, and related
+materials are the intellectual property of the creators of the NEON L-1
+project and are protected by applicable copyright laws.
+
+No ownership or license rights are transferred except as explicitly stated
+in this license.
+
+────────────────────────────────────────────────────────────
+DISCLAIMER AND LIMITATION OF LIABILITY
+────────────────────────────────────────────────────────────
+
+The NEON L-1 project is intended for educational and experimental use.
+It is not designed, tested, or certified for use in safety-critical,
+medical, industrial, or commercial applications.
+
+The authors do not guarantee the correctness, completeness, reliability,
+or suitability of the documentation, designs, or materials provided.
+
+The use of this project, including any hardware, software, or related
+materials, is entirely at the user's own risk.
+
+Under no circumstances shall the authors be held liable for any direct,
+indirect, incidental, consequential, or special damages arising from the
+use, misuse, or inability to use this project, including but not limited
+to equipment damage, data loss, or personal injury.
+
+Users are responsible for ensuring that any use of the project complies
+with applicable laws, regulations, and safety requirements.
