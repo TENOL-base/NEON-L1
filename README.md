@@ -17,8 +17,15 @@ NEON L-1 focuses on clarity, transparency of operation, and educational value ra
 - Maximum clock frequency: 500 kHz;
 - Minimum clock frequency: Unlimited.
 
-## Project status
+## Hardware architecture
+NEON L-1 is implemented as a modular system consisting of six separate printed circuit boards.
 
+Each board represents a dedicated functional unit of the processor, such as control logic, registers, ALU, memory interface, and I/O subsystems.  
+This modular design improves clarity, allows physical separation of processor components, and makes the system especially suitable for educational use and hardware-level demonstrations.
+
+The multi-board architecture also simplifies debugging, testing, and future extensions of the processor.
+
+## Project status
 The NEON L-1 processor is currently under active development.
 The project is divided into six hardware modules.
 
@@ -28,7 +35,6 @@ The project is divided into six hardware modules.
 4. PCB manufacturing — 0 / 6 modules completed
 
 ## Target audience
-
 - High school students (educational use in schools)
 - Technical colleges and institutes (students and applied laboratory tasks)
 - Universities (computer architecture and digital design courses)
