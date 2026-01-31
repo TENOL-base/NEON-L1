@@ -15,4 +15,4 @@ Maximum stack size: 256 bytes;
 Maximum clock frequency: 500 kHz;
 Minimum clock frequency: Unlimited.
 
-[русская версия](README_RU.md)
+[Русская версия](README_RU.md)
