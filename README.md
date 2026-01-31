@@ -9,7 +9,7 @@ NEON L-1 focuses on clarity, transparency of operation, and educational value ra
 
 Technical Specifications:
 Architecture: 8-bit;
-Maximum EEPROM size: 64 K;
+Maximum EEPROM size: 64 KB;
 Maximum RAM size: 8 KB;
 Maximum stack size: 256 bytes;
 Maximum clock frequency: 500 kHz;
