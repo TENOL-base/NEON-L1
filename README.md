@@ -9,21 +9,28 @@ One of the key features of NEON L-1 is manual clock control. This makes it possi
 
 NEON L-1 focuses on clarity, transparency of operation, and educational value rather than performance.
 
-## Technical Specifications
-- Architecture: 8-bit;
-- Maximum EEPROM size: 64 KB;
-- Maximum RAM size: 8 KB;
-- Maximum stack size: 256 bytes;
-- Maximum clock frequency: 500 kHz;
-- Minimum clock frequency: Unlimited.
-
 ## Hardware architecture
-NEON L-1 is implemented as a modular system consisting of six separate printed circuit boards.
+The NEON L-1 processor is implemented as a modular system consisting of six separate printed circuit boards.
+Each board represents a distinct functional unit of the processor, allowing students to study and debug
+individual parts of the CPU independently.
 
-Each board represents a dedicated functional unit of the processor, such as control logic, registers, ALU, memory interface, and I/O subsystems.  
-This modular design improves clarity, allows physical separation of processor components, and makes the system especially suitable for educational use and hardware-level demonstrations.
+The processor is divided into the following hardware modules:
 
-The multi-board architecture also simplifies debugging, testing, and future extensions of the processor.
+- Program Counter module
+- Instruction Processing module
+- Memory module
+- Arithmetic Logic Unit (ALU)
+- Address Control module
+- I/O Port Control module
+
+## Technical Specifications
+- Architecture: 8-bit
+- Maximum EEPROM size: 64 KB
+- Maximum RAM size: 8 KB
+- Maximum stack size: 256 bytes
+- I/O ports: 2 bidirectional 8-bit ports
+- Maximum clock frequency: 500 kHz
+- Minimum clock frequency: Unlimited
 
 ## Project status
 The NEON L-1 processor is currently under active development.
