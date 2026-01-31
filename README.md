@@ -34,7 +34,7 @@ The processor is divided into the following hardware modules:
 
 ## Project status
 The NEON L-1 processor is currently under active development.
-The project is divided into six hardware modules.
+The project is divided into six hardware modules and multiple development stages.
 
 1. Logisim CPU design — 2 / 6 modules completed  
 2. DipTrace schematics — 0 / 6 modules completed  
