@@ -1,48 +1,39 @@
-# NEON L-1
-[Read this document in Russian (Русская версия)](README_RU.md)
+# NEON L‑ᲀ
 
-NEON L-1 is an educational 8-bit processor designed for students and hardware enthusiasts who want to understand how a CPU works at the lowest level.
+NEON L‑ᲀ — это учебный 8‑битный процессор, созданный для студентов и любителей электроники, желающих понять, как работает центральный процессор на самомом низком уровне. Процессор оснащён более чем 200 светодиодами, отображающими состояние внутренних шин, регистров и триггеров в реальном времени. Ручной режим тактирования позволяет выполнять програмы пошагово и наблюдать за обработкой каждой инструкции, что делает NEON L‑ᲀ идеальным инструментом для обучения и демонстраций.
 
-The processor is equipped with more than 200 LEDs that visualize its internal signals, buses, and flip-flops in real time. This allows users to literally see how data moves inside the processor during instruction execution.
+## Аппаратная архитектура
 
-One of the key features of NEON L-1 is manual clock control. This makes it possible to execute programs step by step and observe how each instruction is processed at the hardware level, making the processor especially suitable for learning and demonstrations.
+NEON L‑ᲀ реализован в виде модульной системы из шести отдельных печатных плат. Каждая плата представляет отдельный функциональный блок процессора, что позволяет изучать и отлаживать модули независимо друг от друга. Архитектура включает следующие модули:
 
-NEON L-1 focuses on clarity, transparency of operation, and educational value rather than performance.
+- модуль счётчика команд (Program Counter),
+- модуль обработки инструкций (Instruction Processing Unit),
+- модуль памяти (Memory),
+- арифметико‑логическое устройство (ALU),
+- модуль управления адресами (Address Control),
+- модуль управления портами ввода‑вывода (I/O Port Control).
 
-## Hardware architecture
-The NEON L-1 processor is implemented as a modular system consisting of six separate printed circuit boards.
-Each board represents a distinct functional unit of the processor, allowing students to study and debug
-individual parts of the CPU independently.
+Такая модульность даёт возможность исследовать взаимодействие между блоками и построить собственные экспериментальные конфигурации.
 
-The processor is divided into the following hardware modules:
+## Технические характеристики
 
-- Program Counter module
-- Instruction Processing module
-- Memory module
-- Arithmetic Logic Unit (ALU)
-- Address Control module
-- I/O Port Control module
+- Архитектура: 8‑бит
+- Максимальный объём EEPROM/ПЗУ: 64 КБ
+- Максимальный объём оперативной памяти: 8 КБ
+- Размер стека: до 256 байт
+- Порты ввода‑вывода: 2 двунаправленных 8‑битных порта
+- Максимальная тактовая частота: 500 kГц
+- Минимальная тактовая частота: не ограничена ( пошаговый режим)
+- Режим управления тактом: автоматический и ручной (пошаговое выполнение инструкций)
 
-## Technical Specifications
-- Architecture: 8-bit
-- Maximum EEPROM size: 64 KB
-- Maximum RAM size: 8 KB
-- Maximum stack size: 256 bytes
-- I/O ports: 2 bidirectional 8-bit ports
-- Maximum clock frequency: 500 kHz
-- Minimum clock frequency: Unlimited
+## Программирование
 
-## Project status
-The NEON L-1 processor is currently under active development.
-The project is divided into six hardware modules and several development stages.
+Програмы для NEON L‑ᲀ выполняются в классическом цикле «выборка‑декодирование‑исполнение». Процессор поддерживает базовый набор инструкций для работы с памятью, портами ввода‑вывода, арифметическими и логическими операциями, а также ветвлениями. Синтаксис инструкций и примеры програм размещены в каталоге `docs` ( на английском ), однако архитектура проста для изучения, поэтому свои програмы можно писать и исследовать работу каждой команды в пошаговом режиме.
 
-1. Logisim CPU design — 2 / 6 modules completed
-2. DipTrace schematics — 0 / 6 modules completed
-3. DipTrace PCB layout — 0 / 6 modules completed
-4. PCB manufacturing — 0 / 6 modules completed
+## Статус проекта
 
-## Target audience
-- High school students (educational use in schools)
-- Technical colleges and institutes (students and applied laboratory tasks)
-- Universities (computer architecture and digital design courses)
-- Hardware enthusiasts (home use by students, hobbyists, and adults)
+Проект NEON L‑ᲀ находится в активной разработке. Аппаратная часть собрана и проходит испытания, документация и набор инструкций дополняются по мере развития. В репозитории доступны схемы, исходники прошивок и описания модулей.
+
+## Для кого этот проект
+
+Процессор расчитан на студентов и преподавателей технических вузов, любителей электроники и всех, кто хочет погрузиться в основы работы процессоров. Он поможет лучше понять архитектуру компьютера, принципы передачи и обработки данных, а также будет полезен для экспериментов и построения собственных цифровых устройств.
