@@ -120,7 +120,7 @@ NEON L-1 использует универсальные 8-битные порт
 Если вы впервые работаете с NEON L-1:
 
 1. Ознакомьтесь с документацией  и архитектурой процессора  
-   [datasheet-RU.pdf](docs/datasheet-RU.pdf)
+   [datasheet-RU.pdf](docs/datasheet-RU.pdf)  
    [architecture-RU.pdf](docs/architecture-RU.pdf)
 
 2. Установите программное обеспечение  
