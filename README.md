@@ -103,7 +103,7 @@ NEON L-1 использует универсальные 8-битные порт
 
 Основной технический документ:
 
-`docs/CPU-NEON-L1-RU.pdf`
+[datasheet-RU.pdf](docs/datasheet-RU.pdf)
 
 Содержит:
 
